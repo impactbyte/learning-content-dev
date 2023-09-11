@@ -41,3 +41,11 @@ function App() {
 ```
 
 _Key_ pada objek _style_ yang memiliki lebih dari satu kata,  ditulis dengan gaya penulisan **_camelCase_** contohnya seperti `fontSize`, dan `backgroundColor`. Kenapa **_camelCase_**?? Berhubung kita menulisnya di dalam JSX yang merupakan JavaScript, maka kita harus mengikuti kaidah penulisan pada bahasa tersebut.
+
+# Quiz
+
+Apa yang perlu diperhatikan ketika menggunakan key pada objek style dalam React?
+- [ ] Menggunakan key yang memiliki lebih dari satu kata dengan kebab-case
+- [x] Menggunakan key yang memiliki lebih dari satu kata dengan camelCase
+- [ ] Menggunakan key yang hanya terdiri dari satu kata
+- [ ] Tidak perlu memperhatikan key ketika menggunakan style

@@ -4,14 +4,14 @@ Perhatikan design berikut
 ![gambar]()
 
 Berdasarkan design di atas, ternyata terdiri dari beberapa bagian atau **_component_**
-![gambar]()
 
-_**Component**_ pada React adalah **bagian-bagian dari halaman website**. Seperti `Navbar`, `Footer`, `Button`, dan sebagainya. Kita  bebas menentukan seberapa besar atau kecil komponen yang akan dibuat sesuai dengan kebutuhan.
+_**Component**_ pada React adalah **bagian-bagian dari tampilan UI**. Seperti `Navbar`, `Footer`, `Button`, dan sebagainya. Kita  bebas menentukan seberapa besar atau kecil komponen yang akan dibuat sesuai dengan kebutuhan.
 
-Dengan memisahkan _pages_ menjadi beberapa _component_, dapat memberikan keuntungan seperti:
+Dengan adanya _component_, dapat memberikan keuntungan seperti:
 - _Component_ dapat digunakan berkali-kali
+- _Component_ dapat memiliki logika masing-masing
 - Kode menjadi lebih mudah dibaca dan dikelola
-- Lebih mudah melacak bug
+- Lebih mudah menememukan bug
 
 Dari kode yang awalnya menumpuk seperti ini:
 
@@ -50,3 +50,11 @@ Menjadi seperti ini
 Wow!!! menarik bukan?
 
 Selanjutnya kita akan belajar bagaimana caranya membuat komponen pada React
+
+# Quiz
+
+Apa manfaat utama dari pembelajaran cara membuat komponen dalam React?
+- [ ] Mengurangi kegunaan komponen dalam pengembangan web
+- [ ] Membuat kode menjadi lebih rumit dan panjang
+- [x] Memudahkan pengembangan, pemeliharaan, dan penggunaan ulang komponen
+- [ ] Mengurangi kinerja halaman web secara keseluruhan

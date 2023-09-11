@@ -67,3 +67,11 @@ Jika diperhatiakan, kodenya hampir mirip dengan yang sebelumnya. Perbedaan terda
 import dilakukan dengan memberikan nama `styles`. Kemudian className diisi dengan `styles.text` yang mana `.text` diambil dari styling yang sudah disiaplkan. 
 
 Dengan cara di atas, styling akan terisiolasi dan tidak akan mempengaruhi komponen yang lain dengan `className` yang sama.
+
+# Quiz
+
+Apa manfaat utama dari penggunaan "CSS Modules" dalam React?
+- [ ] Meningkatkan konflik nama kelas
+- [x] Mengisolasi style sehingga tidak mempengaruhi komponen lain
+- [ ] Memungkinkan penggunaan external style secara lebih fleksibel
+- [ ] Mengubah gaya penulisan CSS menjadi camelCase

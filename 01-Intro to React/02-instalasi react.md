@@ -59,14 +59,6 @@ App.jsx: Ini adalah komponen utama React yang akan di-render dalam index.jsx.
 
 # Quiz
 
-### 5 Point
-Langkah mana yang benar saat ingin membuat proyek baru dengan template Vite?
-- [ ] Menjalankan perintah `npm init` dalam terminal.
-- [ ] Menjalankan perintah `npm create react-app nama-proyek`.
-- [x] Menjalankan perintah `npm create vite@latest nama-proyek`.
-- [ ] Menjalankan perintah `create-vite-app nama-proyek`.
-
-### 10 Point
 Jika Anda ingin menjalankan aplikasi React setelah melakukan instalasi menggunakan Vite, perintah apa yang harus dijalankan?
 
 - [ ] npm start

@@ -45,3 +45,12 @@ Contoh:
 setName("Alpha")
 ```
 Mengubah state akan kita pelajari kembali pada **lesson Event Handling**
+
+
+# Quiz
+
+Bagaimana cara mengimpor useState dalam sebuah komponen React?
+- [ ] import useState from "react"
+- [x] import { useState } from "react"
+- [ ] import useState from "react-state"
+- [ ] import { useState } from "react-dom"

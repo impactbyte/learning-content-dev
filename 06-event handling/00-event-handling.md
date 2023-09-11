@@ -10,3 +10,17 @@ Beberapa event handling yang akan kita pelajari yaitu:
 - onClick
 - onChange
 - onSubmit
+
+# Quiz
+
+Apa yang dimaksud dengan "event handling" dalam pengembangan website?
+- [ ] Proses membuat desain tampilan website
+- [ ] Proses memeriksa keamanan website
+- [x] Proses menangani interaksi pengguna dengan website
+- [ ] Proses menyimpan data pada database website
+
+Mengapa interaktivitas penting dalam pengembangan website?
+- [ ] Karena membuat website terlihat lebih sederhana
+- [ ] Karena membuat website lebih cepat dimuat
+- [x] Karena membuat pengguna merasa lebih terlibat dan terhubung dengan konten
+- [ ] Karena membuat tampilan website lebih menarik

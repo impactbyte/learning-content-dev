@@ -1,13 +1,7 @@
 Sebelum mengetahui apa itu JSX? Coba perhatikan kode yang ada di dalam file `App.jsx`
 
-![Gambar]()
-
-Aneh bukan? Di sana terdapat sintax HTML di dalam JavaScript. Yup itulah **JSX**
-
-**JSX** adalah singkatan dari **JavaScript XML**. Ini adalah ekstensi sintaksis yang digunakan dalam React untuk memungkinkan penulisan kode HTML di dalam JavaScript.
-
 ```jsx
-const App = () => {
+function App () {
   return (
     <div>
       <h1>Hello, World!</h1>;
@@ -16,6 +10,10 @@ const App = () => {
   )
 } 
 ```
+
+Aneh bukan? Di sana terdapat sintax HTML di dalam JavaScript. Yup itulah **JSX**.
+
+**JSX** adalah singkatan dari **JavaScript XML**. Ini adalah ekstensi sintaksis yang digunakan dalam React untuk memungkinkan penulisan kode HTML di dalam JavaScript.
 
 Kita tidak perlu repot lagi memikirkan DOM node mana yang nantinya akan dimanipulasi. 
 
@@ -39,3 +37,10 @@ const App = () => {
 > **NOTE**</br>
 > Perlu diperhatikan bahwa **JSX** akan di-`return` untuk dapat ditampilkan.
 
+# Quiz
+
+Apa kegunaan utama JSX dalam React?
+- [x] Memungkinkan penulisan kode HTML di dalam JavaScript
+- [ ] Menggantikan JavaScript dengan HTML
+- [ ] Meningkatkan performa aplikasi React
+- [ ] Mengurangi kompleksitas kode JavaScript

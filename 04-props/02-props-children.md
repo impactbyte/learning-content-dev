@@ -38,3 +38,11 @@ Dari kode di atas, `PageLayout` dipanggil dengan tag pembuka dan tag penutup unt
   <Footer />;
 </div>
 ```
+
+# Quiz
+
+Apa yang dimaksud dengan props.children dalam React?
+- [ ] Sebuah properti untuk mengubah tampilan komponen
+- [ ] Sebuah cara untuk mengirim data antar komponen
+- [x] Sebuah properti yang digunakan untuk mengakses elemen anak (child) dari suatu komponen
+- [ ] Sebuah metode untuk membuat komponen lebih statis

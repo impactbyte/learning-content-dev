@@ -29,3 +29,12 @@ Jika ingin menggunakan _selector class_, gunakan `className`. Ini disebabkan kar
 
 > **NOTE**</br>
 > Jika memberikan _**external style**_ pada _parent component_, maka _child component_ dapat menggunakan _style_ tersebut tanpa perlu di `import`.
+
+
+# Quiz
+
+Bagaimana child component dapat menggunakan external style yang didefinisikan di parent component dalam React?
+- [ ] Dengan menambahkan atribut external-style pada elemen child component
+- [ ] Dengan mengimport file CSS yang sama di child component
+- [x] Secara otomatis, child component dapat menggunakan external style dari parent component
+- [ ] Tidak mungkin child component menggunakan external style dari parent component

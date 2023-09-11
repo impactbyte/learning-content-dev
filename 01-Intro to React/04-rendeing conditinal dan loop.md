@@ -1,4 +1,4 @@
-Pada topic sebelumnya, kita sudah mencoba me-_render_ JSX serta menyisipkan kode JavaScript pada ke dalamnya. Berikutnya kita akan mencoba **_conditonal_ dan _loop_ rendering pada JSX**
+Pada topic sebelumnya, kita sudah mencoba me-_render_ JSX serta menyisipkan kode JavaScript ke dalamnya. Berikutnya kita akan mencoba **_conditonal_ dan _loop_ rendering pada JSX**
 
 ### Conditional
 
@@ -54,3 +54,18 @@ Pada kode di atas:
 - `map()` diisi dengan _callback function_ yang mengembalikan JSX `<li>`
 - Atribute/Props `key` pada `<li>` digunakan sebagai pembeda antara `<li>` buah yang satu dengan yang lain
 - Maka jeruk, rambutan, dan pepaya akan muncul dengan tampilan list
+
+
+# Quiz
+
+Apa yang digunakan sebagai atribut/props untuk membedakan elemen-elemen dalam loop rendering pada JSX?
+- [ ] Index
+- [x] Key
+- [ ] Value
+- [ ] Item
+
+Bentuk condional apa yang digunakan di dalam JSX?
+- [ ] if else
+- [ ] switch case
+- [x] ternary operator
+- [ ] map

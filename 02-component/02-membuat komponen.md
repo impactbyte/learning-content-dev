@@ -49,3 +49,11 @@ class App extends React.Component {
   }
 }
 ```
+
+# Quiz
+
+Apa yang paling umum digunakan saat ini dalam pembuatan komponen di React?
+- [x] Functional Component
+- [ ] Class Component
+- [ ] Static Component
+- [ ] Dynamic Component

@@ -21,3 +21,11 @@ Contoh kasus menggunakan _state_
 - Menyimpan data bersifat dinamis dan dapat dikelola
 
 Selanjutnya kita akan belajar bagaimana caranya membuat `state` pada React
+
+# Quiz
+
+Kapan sebaiknya kita menggunakan "state" dalam pengembangan React?
+- [x] Ketika kita ingin menyimpan data bersifat dinamis yang dapat diubah
+- [ ] Ketika kita ingin mengoper data dari parent ke child
+- [ ] Ketika kita ingin membuat tampilan komponen lebih kompleks
+- [ ] Ketika kita ingin menggabungkan beberapa komponen menjadi satu

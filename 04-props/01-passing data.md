@@ -1,5 +1,4 @@
 
-
 **Props** adalah singkatan dari _Properties_. **Props** berguna untuk **mengoper data** dari _parent component_ ke _child component_. Bersifat satu arah (_parent_ ke _child_) dan dapat menjadikan komponen  lebih dinamis.
 
 Supaya lebih jelas, coba kamu perhatikan kode dan gambar di bawah ini. 
@@ -35,7 +34,7 @@ function Card(props) {
 
 Pada kode di atas, kita panggil `Card`, lalu berikan _props_ `img` dan `name`. Di dalam komponen `Card`, tambahkan parameter `props` untuk dapat menangkap data _props_ yang sudah dioper.
 
-Tidak hanya data `string` yang dapat kamu kirim, tapi kamu dapat mengirim data `number`, `boolean`, `array`, `object` dan bahkan sebuah component. Contoh:
+Tidak hanya `string` yang dapat kamu kirim, tapi kamu dapat mengirim data `number`, `boolean`, `array`, `object`, `function` dan bahkan sebuah component. Contoh:
 
 ```jsx
 
@@ -62,4 +61,10 @@ function Card(props) {
 
 
 > **Note**</br>
-> Cara kerja props mirip seperti memberikan argument pada function, yang nantinya akan diterima sebagai parameter
+> Mengoper _props_ pada komponen mirip seperti mengoper argumen ke dalam function.
+
+Apa fungsi utama dari "Props" dalam React?
+- [ ] Menambahkan efek animasi pada komponen
+- [ ] Mengoper data dari child component ke parent component
+- [x] Mengoper data dari parent component ke child component
+- [ ] Mengubah tampilan halaman web secara keseluruhan
