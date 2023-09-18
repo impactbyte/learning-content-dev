@@ -46,6 +46,13 @@ setName("Alpha")
 ```
 Mengubah state akan kita pelajari kembali pada **lesson Event Handling**
 
+---
+Untuk mengasah pemahaman mu, silahkan ikuti eksperimen berikut.
+
+1. Buat state kucing dengan tipe data object yang memiliki properti nama (string), warna (string), makanan (array)
+2. Tampilkan data tersebut
+
+Hasilnya seperti ini
 
 # Quiz
 

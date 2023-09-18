@@ -1,9 +1,9 @@
-Dalam membuat halaman website, sudah pasti kita akan mengamati, menganalisa, membagi dan menentukan bagian-bagian serta element dari design yang sudah disiapkan.
+Dalam membuat halaman website, sudah pasti kita akan mengamati, menganalisa, membagi dan menentukan bagian-bagian serta _element_ dari design yang sudah disiapkan.
 
 Perhatikan design berikut
-![gambar]()
+![gambar](../00-assets/komponen.png)
 
-Berdasarkan design di atas, ternyata terdiri dari beberapa bagian atau **_component_**
+Berdasarkan design di atas, ternyata sebuah halaman terdiri dari beberapa bagian atau **_component_**
 
 _**Component**_ pada React adalah **bagian-bagian dari tampilan UI**. Seperti `Navbar`, `Footer`, `Button`, dan sebagainya. Kita  bebas menentukan seberapa besar atau kecil komponen yang akan dibuat sesuai dengan kebutuhan.
 

@@ -9,16 +9,17 @@ Event handling merupakan salah satu aspek yang sangat penting. Sama seperti keti
 Beberapa event handling yang akan kita pelajari yaitu:
 - onClick
 - onChange
-- onSubmit
 
 # Quiz
 
+### 5 point 
 Apa yang dimaksud dengan "event handling" dalam pengembangan website?
 - [ ] Proses membuat desain tampilan website
 - [ ] Proses memeriksa keamanan website
 - [x] Proses menangani interaksi pengguna dengan website
 - [ ] Proses menyimpan data pada database website
 
+### 5 point
 Mengapa interaktivitas penting dalam pengembangan website?
 - [ ] Karena membuat website terlihat lebih sederhana
 - [ ] Karena membuat website lebih cepat dimuat

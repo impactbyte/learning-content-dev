@@ -1,9 +1,9 @@
 Pada topik sebelumnya, data dapat dioper ke dalam komponen melalui `props`. Kali ini kita akan mencoba mengoper komponen ke dalam komponen melalui props.
 
 Coba perhatikan gambar dibawah:
-![gambar]()
+![gambar](../00-assets/props-children.png)
 
-Terdapat 2 halaman atau komponen yang berbeda tetapi memiliki beberapa komponen yang sama seperti `navbar` dan `footer`.
+Terdapat 2 halaman atau komponen yang berbeda tetapi memiliki komponen yang sama seperti `navbar`, `footer`, dan lain-lain.
 
 Untuk membuat seperti contoh gambar di atas, kita dapat membuat komponen layout yang dapat menerima sebuah komponen, lalu memanfaatkan `props.children` supaya lebih dinamis.
 
