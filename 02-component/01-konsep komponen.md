@@ -53,7 +53,15 @@ Selanjutnya kita akan belajar bagaimana caranya membuat komponen pada React
 
 # Quiz
 
-Apa manfaat utama dari pembelajaran cara membuat komponen dalam React?
+### 5 Point
+Apa yang dimaksud dengan component dalam konteks pembuatan halaman website?
+- [ ] Bagian kecil dari komputer
+- [x] Bagian dari tampilan UI
+- [ ] Bagian dari kode JavaScript
+- [ ] Bagian dari server backend
+
+### 5 Point
+Apa manfaat komponen dalam React?
 - [ ] Mengurangi kegunaan komponen dalam pengembangan web
 - [ ] Membuat kode menjadi lebih rumit dan panjang
 - [x] Memudahkan pengembangan, pemeliharaan, dan penggunaan ulang komponen

@@ -16,9 +16,9 @@ function App() {
 ```css
 /* style.css */
 .text {
-  color: "blue",
-  font-size: "16px",
-  background-color: "lightgray",
+  color: blue;
+  font-size: 16px;
+  background-color: lightgray;
 };
 ```
 Penggunaannya mirip seperti saat kita menggunakan HTML dan CSS secara terpisah.
@@ -33,8 +33,28 @@ Jika ingin menggunakan _selector class_, gunakan `className`. Ini disebabkan kar
 
 # Quiz
 
+### 5 Point
 Bagaimana child component dapat menggunakan external style yang didefinisikan di parent component dalam React?
 - [ ] Dengan menambahkan atribut external-style pada elemen child component
 - [ ] Dengan mengimport file CSS yang sama di child component
 - [x] Secara otomatis, child component dapat menggunakan external style dari parent component
 - [ ] Tidak mungkin child component menggunakan external style dari parent component
+
+### 10 Point
+Bagaimana cara menggunakan external style yg benar?
+- [x] 
+```jsx
+  import 'style.css'
+```
+- [ ] 
+```jsx
+  import style from 'style.css'
+```
+- [ ] 
+```jsx
+  link 'style.css'
+```
+- [ ]
+```jsx
+  link style from 'style.css'
+```

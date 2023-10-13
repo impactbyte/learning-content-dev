@@ -24,8 +24,16 @@ Selanjutnya kita akan belajar bagaimana caranya membuat `state` pada React
 
 # Quiz
 
+### 5 Point
 Kapan sebaiknya kita menggunakan "state" dalam pengembangan React?
 - [x] Ketika kita ingin menyimpan data bersifat dinamis yang dapat diubah
 - [ ] Ketika kita ingin mengoper data dari parent ke child
 - [ ] Ketika kita ingin membuat tampilan komponen lebih kompleks
 - [ ] Ketika kita ingin menggabungkan beberapa komponen menjadi satu
+
+### 5 Point
+Apa bedanya state dan props?
+- [ ] State adalah data yang dioper, sedangkan props data yang lahir pada komponen
+- [ ] State data yang dioper dari parent ke child, sedangkan props dioper dari child ke parent
+- [ ] State bersifat _immutable_ sedangkan props _mutable_
+- [x] State bersifat _mutable_ sedangkan props _immutable_

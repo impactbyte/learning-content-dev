@@ -1,6 +1,6 @@
-_Styling_ merupakan hal yang **tidak bisa dipisahkan** dari _web development_. Dengan memberikan styling, tampilan website menjadi lebih indah.
+Pemberian styling dengan cara **_inline_** merupakan salah satu yang cukup mudah dilakukan ketika digunakan pada HTML. 
 
-Sama seperti penggunaan _styling_ pada HTML, kita juga bisa memberikan _styling_ dalam bentuk _**inline style**_ pada React.
+**_inline style_** dapat diterapkan pada React, tapi ada beberapa hal yang harus diperhatikan.
 
 Pertama yang perlu disiapkan adalah _prop_ `style`. _Prop_ ini berisi objek JavaScript dengan _key_ dan _value_ _styling_ yang akan kita berikan. Contoh:
 
@@ -40,12 +40,35 @@ function App() {
 }
 ```
 
-_Key_ pada objek _style_ yang memiliki lebih dari satu kata,  ditulis dengan gaya penulisan **_camelCase_** contohnya seperti `fontSize`, dan `backgroundColor`. Kenapa **_camelCase_**?? Berhubung kita menulisnya di dalam JSX yang merupakan JavaScript, maka kita harus mengikuti kaidah penulisan pada bahasa tersebut.
+_Key_ pada objek _style_ yang memiliki lebih dari satu kata, ditulis dengan gaya penulisan **_camelCase_** contohnya seperti `fontSize`, dan `backgroundColor`. Kenapa **_camelCase_**?? Berhubung kita menulisnya di dalam JSX yang merupakan JavaScript, maka kita harus mengikuti kaidah penulisan pada bahasa tersebut.
 
 # Quiz
 
-Apa yang perlu diperhatikan ketika menggunakan key pada objek style dalam React?
-- [ ] Menggunakan key yang memiliki lebih dari satu kata dengan kebab-case
-- [x] Menggunakan key yang memiliki lebih dari satu kata dengan camelCase
-- [ ] Menggunakan key yang hanya terdiri dari satu kata
-- [ ] Tidak perlu memperhatikan key ketika menggunakan style
+### 5 point
+
+Apa yang perlu diperhatikan ketika menulis properti pada objek style?
+
+- [ ] Menggunakan properti yang memiliki lebih dari satu kata dengan kebab-case
+- [x] Menggunakan properti yang memiliki lebih dari satu kata dengan camelCase
+- [ ] Menggunakan properti yang hanya terdiri dari satu kata
+- [ ] Tidak perlu memperhatikan properti ketika menggunakan style
+
+### 10 point
+
+Apa yang salah dari kode di bawah
+```jsx
+<span
+  style={{
+    padding: 16px,
+    fontSize: 1.3rem,
+    backgroundColor: lightgray,
+  }}
+>
+  Kirim
+</span>
+```
+
+- [ ] Tidak menggunakan CapitalCase
+- [ ] Tidak menggunakan class
+- [ ] Tidak menggunakan css terpisah
+- [x] Tidak menggunakan kutip pada value

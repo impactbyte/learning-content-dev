@@ -1,5 +1,7 @@
 `onChange` adalah _prop_ yang umum digunakan pada elemen seperti `<input>`, `<textarea>` dan `<select>`. Ini memungkinkan kita menangani perubahan nilai pada elemen tersebut. Contohnya:
 
+![latihan](../00-assets/onChange-1.gif)
+
 ```jsx
 function App() {
   function handleChange(event) {
@@ -10,13 +12,15 @@ function App() {
 }
 ```
 
-Pada kode di atas, akan menampilkan tulisan pada `console` jika kamu mengetik sesuatu pada text input.
+Pada kode di atas, akan menampilkan tulisan pada `console` browser jika kamu mengetik sesuatu pada text input.
 
 Text input di atas diberi `onChange` yang akan menjalankan `handleChange` jika terjadi perubahan pada text input tersebut.
 
 `handleChange` memiliki parameter `event` yang berasal dari `onChange`. Parameter ini digunakan untuk menangkap hasil ketikan pada text input dengan cara memanggil `event.target.value`
 
 Kamu juga bisa menyimpan hasil ketikan tersebut kedalam sebuah state, contohnya seperti ini:
+
+![latihan](../00-assets/onChange-2.gif)
 
 ```jsx
 function App() {
@@ -31,6 +35,7 @@ function App() {
       <input 
         type="text" 
         name="nama" 
+        value={nama}
         onChange={handleChange} 
       />
       <h1>{nama}</h1>
@@ -49,16 +54,49 @@ Untuk mengasah pemahaman mu, silahkan ikuti eksperimen berikut.
 4. Simpan data `username` dan `password` ke dalam state.
 5. Tampilkan `username` dan `password` ke console ketika tombol login di tekan
 
-Hasilnya seperti ini
-
+Hasilnya seperti ini :
+![latihan](../00-assets/onChange-latihan.gif)
 
 
 # Quiz
 
 ### 5 point
- Apa tujuan penggunaan prop `onChange` dalam elemen seperti `<input>`,`<textarea>`, dan `<select>` dalam React?
+ Apa tujuan penggunaan `onChange` dalam elemen seperti `<input>`,`<textarea>`, dan `<select>`?
 
 - [ ] Untuk mengubah gaya tampilan elemen tersebut.
 - [x] Untuk menangani perubahan nilai pada elemen tersebut.
 - [ ] Untuk menampilkan elemen tersebut ke layar.
 - [ ] Untuk menghapus elemen tersebut dari tampilan.
+
+### 15 point
+Ketika tombol reset di tekan, text pada input tidak terhapus. Apa yang salah dari kode ini?
+```jsx
+function App() {
+  const [nama, setNama] = useState("");
+
+  function handleChange(event) {
+    setNama(event.target.value);
+  }
+
+  function reset() {
+    setNama("")
+  }
+
+  return (
+    <>
+      <input 
+        type="text" 
+        name="nama" 
+        onChange={handleChange} 
+      />
+      <h1>{nama}</h1>
+      <button onClick={reset}>reset</button>
+    </>
+  );
+}
+```
+
+- [x] tidak ada attribute `value` pada `<input>`
+- [ ] tidak ada `preventDefault()`
+- [ ] tidak ada tag `<form>`
+- [ ] tidak ada event `reset` pada `input`

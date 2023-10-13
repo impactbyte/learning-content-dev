@@ -42,16 +42,16 @@ Ini bermanfaat untuk menghindari konflik nama kelas (class name) dan memastikan 
 
 Sehingga 
 ```css
-/* Navbar.css */
+/* Navbar.module.css */
 .text {
-  color: "blue",
-  font-size: "16px",
-  background-color: "lightgray",
+  color: blue;
+  font-size: 16px;
+  background-color: lightgray;
 };
 ```
 ```jsx
 // Navbar.jsx
-import styles from './Navbar.css';
+import styles from './Navbar.module.css';
 
 function Navbar() {
   return (
@@ -62,16 +62,36 @@ function Navbar() {
 }
 ```
 
-Jika diperhatiakan, kodenya hampir mirip dengan yang sebelumnya. Perbedaan terdapat pada cara `import` dan pada pemberian nama `className`.
-
-import dilakukan dengan memberikan nama `styles`. Kemudian className diisi dengan `styles.text` yang mana `.text` diambil dari styling yang sudah disiaplkan. 
+Jika diperhatikan, pemberian nama file diberi ekstensi `.module.css` kemudian import dilakukan dengan memberikan nama `styles`. Lalu pada `className` diisi dengan `styles.text` yang mana `.text` diambil dari styling yang sudah disiaplkan. 
 
 Dengan cara di atas, styling akan terisiolasi dan tidak akan mempengaruhi komponen yang lain dengan `className` yang sama.
 
 # Quiz
+
+### 5 Point
 
 Apa manfaat utama dari penggunaan "CSS Modules" dalam React?
 - [ ] Meningkatkan konflik nama kelas
 - [x] Mengisolasi style sehingga tidak mempengaruhi komponen lain
 - [ ] Memungkinkan penggunaan external style secara lebih fleksibel
 - [ ] Mengubah gaya penulisan CSS menjadi camelCase
+
+### 15 Point
+
+Apa yang terjadi pada kode di bawah?
+```jsx
+// Navbar.jsx
+import styles from './Navbar.css';
+
+function CardItem() {
+  return (
+    <div className={styles.card}>
+      <p>css module</p>
+    </div>
+  );
+}
+```
+- [ ] div akan diberi style card
+- [ ] style card akan berpengaruh pada komponene yang lain
+- [ ] Tidak terjadi apa-apa
+- [x] Kode error

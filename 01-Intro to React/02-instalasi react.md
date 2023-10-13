@@ -1,5 +1,9 @@
-Pada topik ini, kita akan mencoba untuk melakukan instalasi project React menggunakan **Vite**.
-**Vite** adalah alat pengembangan yang cepat dan ringan untuk proyek JavaScript. Berikut langkah-langkah untuk menginstall React dengan Vite:
+Pada topik ini, kita akan mencoba untuk melakukan instalasi project React menggunakan **Vite**. **Vite** adalah alat pengembangan yang cepat dan ringan untuk proyek JavaScript. 
+
+> **NOTE**</br>
+> Pastikan kamu sudah mengistall aplikasi NodeJS.
+
+Berikut langkah-langkah untuk menginstall React dengan Vite:
 
 1. Buka terminal atau command prompt.
 2. Navigasi ke direktori proyek yang diinginkan.
@@ -49,9 +53,9 @@ Wow terlihat menyeramkan ya karena ada banyak file asing yang mungkin belum kita
 
 Berikut adalah penjelasan singkat dari struktur proyek di atas:
 - **node_modules/**: Berisi semua paket yang di-instal oleh NPM.
-- **public/**: Berisi file yang akan disalin ke root direktori output saat proyek Anda dibangun. `index.html` adalah file utama yang akan digunakan oleh Vite.
-- **src/**: Berisi kode sumber proyek Anda.
-App.jsx: Ini adalah komponen utama React yang akan di-render dalam index.jsx.
+- **public/**: Berisi file yang akan disalin ke root direktori output saat proyek di-_build_. `index.html` adalah file utama yang akan digunakan oleh Vite.
+- **src/**: Berisi kode sumber proyek.
+`App.jsx` adalah komponen utama React yang akan di-render dalam `main.jsx`.
 - **.gitignore**: Berisi daftar file/direktori yang akan diabaikan oleh Git. 
 - **package.json**: File konfigurasi proyek dan daftar dependensi.
 - **README.md**: Berisi informasi/penjelasan tentang proyek yang kita buat.
@@ -59,9 +63,25 @@ App.jsx: Ini adalah komponen utama React yang akan di-render dalam index.jsx.
 
 # Quiz
 
-Jika Anda ingin menjalankan aplikasi React setelah melakukan instalasi menggunakan Vite, perintah apa yang harus dijalankan?
+### 5 point
+Manakah perintah yang benar
+- [ ] npm create vite-latest 
+- [ ] npm build vite@latest nama-proyek
+- [ ] npm create vite@latest nama-proyek
+- [ ] npm create vite@latest nama-proyek
+
+### 5 point
+Jika Anda ingin menjalankan aplikasi React, perintah apa yang harus dijalankan?
 
 - [ ] npm start
 - [ ] npm run build
 - [ ] npm run serve
 - [x] npm run dev
+
+### 10 point
+Mengapa penggunaan NodeJS disebutkan dalam pembelajaran ini?
+
+- [ ] NodeJS adalah alat pengembangan yang berbasis JavaScript.
+- [x] NodeJS digunakan untuk menjalankan perintah-perintah dalam proses instalasi proyek React.
+- [ ] NodeJS digunakan untuk mengelola tampilan website React.
+- [ ] NodeJS digunakan untuk membuat server

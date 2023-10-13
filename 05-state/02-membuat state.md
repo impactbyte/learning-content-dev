@@ -49,15 +49,37 @@ Mengubah state akan kita pelajari kembali pada **lesson Event Handling**
 ---
 Untuk mengasah pemahaman mu, silahkan ikuti eksperimen berikut.
 
-1. Buat state kucing dengan tipe data object yang memiliki properti nama (string), warna (string), makanan (array)
-2. Tampilkan data tersebut
+1. Buat state `kucing` dengan tipe data object yang memiliki properti nama (_string_), warna (_string_), dan makanan (_array_)
+2. Tampilkan data tersebut pada JSX
 
 Hasilnya seperti ini
+![latihan](../00-assets/state-latihan.png)
 
 # Quiz
 
+### 5 Point
 Bagaimana cara mengimpor useState dalam sebuah komponen React?
 - [ ] import useState from "react"
 - [x] import { useState } from "react"
 - [ ] import useState from "react-state"
 - [ ] import { useState } from "react-dom"
+
+### 15 Point
+Berdasarkan soal latihan, manakah yang benar untuk menampilkan data makanan kucing?
+- [ ] 
+```jsx
+<li>{kucing.makanan}</li>
+```
+- [ ] 
+```jsx
+{makanan.map(item => (
+  <li>{item}</li>
+))}
+```
+- [x] 
+```jsx
+{kucing.makanan.map(item => (
+  <li>{item}</li>
+))}
+```
+- [ ] Semuanya salah
