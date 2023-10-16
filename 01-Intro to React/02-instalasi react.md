@@ -25,8 +25,8 @@ npm install
 ```bash
 npm run dev
 ```
-Maka akan muncul tampilan website React.
-![]()
+8. Jalankan alamat local yang diberikan pada web bowser, maka akan muncul tampilan website React.
+![](../00-assets/react-npm-run-dev.png)
 
 **Selamat!!! aplikasi react pertama kalian sudah berhasil dijalankan..**
 
